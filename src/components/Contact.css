@@ -1,0 +1,30 @@
+.contact
+{
+    display: flex;
+    padding: 10px;
+}
+.contact img
+{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+.contact-content
+{    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1rem;
+    border-bottom: 1px #BABABA groove;
+}
+.contact-content-header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.contact-content-body
+{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.message
+{
+    display: flex;
+    flex-direction: column;    
+}
+.message-content
+{
+    margin: 0.2rem;
+    border-radius: 10px;
+    width: max-content;
+    padding: 0.5rem;
+    background-color: gray;
+}
+.message-content-text
+{
+    display: flex;
+}
+.message-content-text p
+{
+    margin: 0.2rem;
+}
+.own
+{
+    align-self: flex-end;
+    background-color: rgb(70, 180, 70);
+}

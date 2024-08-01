@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import NavBar from './components/NavBar'
 import SignIn from './components/SignIn'
 import Login from './components/Login'
+import Chat from './components/Chat'
 
 function App() {
 
   return (
     <>
-      <NavBar></NavBar>
-      <Login></Login>
+      {/* <NavBar></NavBar> */}
+      {/* <Login></Login> */}
       {/* <SignIn></SignIn> */}
+      <Chat></Chat>
     </>
   )
 }

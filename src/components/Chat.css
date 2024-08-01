@@ -1,0 +1,56 @@
+header
+{
+    display: flex;
+}
+.message-search
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    padding: 15px;
+    background-color: gray;
+}
+.chat-status
+{
+    display: flex;    
+    background-color: #1D5EDB;
+    width: 100%;
+}
+.chat-status-profile-picture
+{
+    margin: 1rem;
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+}
+.chat-status-contact-information
+{
+    margin: 1rem;
+}
+.chat-status-contact-information h2
+{
+    margin-bottom: 1rem;
+}
+main
+{
+    display: flex;
+}
+.contacts
+{
+    height: 816px;
+    width: 480px;
+    padding: 15px;
+    background-color: white;
+}
+.chat
+{
+    height: 816px;
+    width: 1380px;
+    padding: 15px;
+    background-color: white;
+}
+.chat-messages
+{
+    height: 755px;
+}
